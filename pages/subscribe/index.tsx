@@ -10,8 +10,8 @@ const Subscribe = () => {
       <div className="xl:max-w-640 xl:mx-auto">
         <p className="text-1xl capitalize font-normal text-center  my-9">
           —from artful depictions of reality to the further reaches of dreams
-          and fantasy. These images began to form not only a person's living
-          environment.
+          and fantasy. These images began to form not only a person&apos;s
+          living environment.
         </p>
 
         <div className="flex flex-col items-center gap-4 md:flex-row lg:flex-col xl:flex-row ">

@@ -27,8 +27,8 @@ const Collection = () => {
         <div className="flex flex-col gap-4">
           <p className="max-w-420 capitalize w-full  ">
             —from artful depictions of reality to the further reaches of dreams
-            and fantasy. These images began to form not only a person's living
-            environment.
+            and fantasy. These images began to form not only a person&apos;s
+            living environment.
           </p>
           <Image
             src="/images/collection/farol-landscape.png"

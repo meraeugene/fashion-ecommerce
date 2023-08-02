@@ -18,14 +18,14 @@ const Secret = () => {
         <p className="capitalize mt-2 text-sm md:mt-0 lg:mt-4 xl:max-w-391 w-full xl:text-base  xl:mt-8 ">
           Attempting to label or categorise many forms of art is dangerous and
           frequently misguided. In the context of Fashion photography, the term
-          "conceptual" appears to be a slightly loaded but meaningless catch-all
-          rather than a description of a movement, tendency, or approach. So,
-          with that acknowledgement, these 13 diverse projects show some of the
-          range that Fashion photography has to offer
+          &quot;conceptual&quot; appears to be a slightly loaded but meaningless
+          catch-all rather than a description of a movement, tendency, or
+          approach. So, with that acknowledgement, these 13 diverse projects
+          show some of the range that Fashion photography has to offer
         </p>
         <p className="capitalize mt-4 text-sm md:mt-0 lg:mt-4 xl:max-w-391 w-full xl:text-base xl:mt-8 ">
           —from artful depictions of reality to the further reaches of dreams
-          and fantasy.These images began to form not only a person's living
+          and fantasy.These images began to form not only a person&apos;s living
           environment, but also an excursion into the mental landscape:
           reminiscences, reveries, fears, and dreams.
         </p>
