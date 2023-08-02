@@ -1,8 +1,8 @@
 import React from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 interface MoreCardProps {
-  img: string;
+  img: StaticImageData;
   alt: string;
   price: string;
   title: string;
@@ -17,6 +17,7 @@ const MoreCard = ({ img, alt, price, title, desc }: MoreCardProps) => {
         alt={alt}
         width={2320}
         height={3088}
+        placeholder="blur"
         className="md:max-w-291 md:h-362 object-cover lg:max-w-225 xl:max-w-291 w-full "
       />
       <div className="xl:h-max xl:max-w-291 lg:py-4">

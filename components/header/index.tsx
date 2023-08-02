@@ -1,6 +1,10 @@
 "use client";
 import React, { useState, useEffect } from "react";
 
+// animated icons
+import UseAnimations from "react-useanimations";
+import menu4 from "react-useanimations/lib/menu4";
+
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   const [hideNav, setHideNav] = useState(true);
@@ -28,23 +32,14 @@ const Header = () => {
   return (
     <>
       {hideNav && (
-        <header className="py-3 px-2 fixed w-full bg-white   ">
-          <nav className=" flex items-center justify-between  ">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-6 h-6 md:w-8 md:h-8 lg:hidden"
+        <header className="fixed w-full ">
+          <nav className=" flex items-center justify-between glass-effect bg-white py-2 px-2   lg:px-4  ">
+            <UseAnimations
+              animation={menu4}
+              size={30}
               onClick={toggleMenu}
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-              />
-            </svg>
+              className="z-50 lg:hidden"
+            />
 
             <div>
               <span className="font-aguafina text-2xl hidden lg:block">
@@ -62,7 +57,7 @@ const Header = () => {
               </ul>
             </div>
 
-            <div className="flex items-center gap-2">
+            <div className={toggle ? "hidden" : "flex items-center gap-2"}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -108,27 +103,11 @@ const Header = () => {
             </div>
           </nav>
           {toggle && (
-            <nav className="bg-white fixed h-full  z-10 left-0 top-0 w-full  px-4 lg:hidden  grid place-items-center  ">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-6 h-6 absolute top-3 left-2 md:top-4 md:left-4 md:w-8 md:h-8"
-                onClick={toggleMenu}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-              <span className="font-aguafina text-3xl absolute top-3 right-2 ">
+            <nav className="bg-white fixed h-full  z-10 left-0 top-18 w-full  px-4 lg:hidden    ">
+              <span className="font-aguafina text-2xl absolute -top-10 right-3 ">
                 ElgeVibes
               </span>
-
-              <ul className=" text-5xl font-semibold w-full grid gap-4  font-krylon  ">
+              <ul className=" text-5xl  w-full grid gap-4  font-krylon mt-8 ">
                 <li>MEN</li>
                 <li>WOMEN</li>
                 <li>WHAT&apos;S NEW</li>

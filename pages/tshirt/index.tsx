@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import renaishaImage from "../../public/images/tshirt/renaisha.webp";
 
 const Tshirt = () => {
   return (
@@ -9,10 +10,11 @@ const Tshirt = () => {
       </h1>
       <div className="flex gap-4 flex-wrap md:px-8 lg:flex-nowrap xl:px-16 xl:mt-12 xl:gap-16">
         <Image
-          src="/images/tshirt/renaisha.webp"
+          src={renaishaImage}
           alt="renaisha pic"
           width={4096}
           height={2731}
+          placeholder="blur"
           className="max-w-709 w-full h-751 object-cover md:max-w-325 md:h-auto lg:max-w-600 lg:h-auto xl:max-w-709 "
         />
         <div className="flex flex-col px-4">

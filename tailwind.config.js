@@ -13,7 +13,7 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
       },
       fontSize: {
-        140: "140px",
+        180: "180px",
       },
       lineHeight: {
         140: "140px",

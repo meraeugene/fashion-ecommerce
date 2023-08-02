@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import farolPortraitImage from "../../public/images/collection/farol-portrait.webp";
+import farolLandscapeImage from "../../public/images/collection/farol-landscape.webp";
 
 const Collection = () => {
   return (
@@ -16,10 +18,11 @@ const Collection = () => {
             $490.0
           </span>
           <Image
-            src="/images/collection/farol-portrait.webp"
-            alt="farol pic"
+            src={farolPortraitImage}
+            alt="farol-portrait"
             width={2182}
             height={2904}
+            placeholder="blur"
             className="  object-cover   md:max-w-full w-full xl:max-w-391"
           />
         </div>
@@ -31,10 +34,11 @@ const Collection = () => {
             living environment.
           </p>
           <Image
-            src="/images/collection/farol-landscape.webp"
+            src={farolLandscapeImage}
             className="  object-cover  w-full xl:w-821 sm:w-full xl:h-616 lg:h-full md:h-full "
             width={2320}
             height={3088}
+            placeholder="blur"
             alt="farol-landscape"
           />
         </div>

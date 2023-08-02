@@ -1,5 +1,7 @@
 import React from "react";
 import MoreCard from "@/components/MoreCard";
+import orangeDressImage from "../../public/images/more/orange.webp";
+import whiteDressImage from "../../public/images/more/white.webp";
 
 const More = () => {
   return (
@@ -15,7 +17,7 @@ const More = () => {
       </div>
       <div className="flex flex-wrap gap-12 md:flex-nowrap md:gap-6  ">
         <MoreCard
-          img="/images/more/orange.webp"
+          img={orangeDressImage}
           alt="orange dress"
           price="$490.0"
           title="Orange Summer Suit Button-Down + Tank + Jeans"
@@ -23,10 +25,10 @@ const More = () => {
 Profile. Then go to the general tab to change your email."
         />
         <MoreCard
-          img="/images/more/white.webp"
-          alt="orange dress"
+          img={whiteDressImage}
+          alt="white dress"
           price="$490.0"
-          title="Orange Summer Suit Button-Down + Tank + Jeans"
+          title="White Summer Suit Button-Down + Tank + Jeans"
           desc=" You can log in to your account and change it from your Profile Edit
 Profile. Then go to the general tab to change your email."
         />

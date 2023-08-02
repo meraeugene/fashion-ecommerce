@@ -2,13 +2,13 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="hero-bg text-white px-4 md:px-0 pb-4 xl:px-0">
-      <div className="flex items-center justify-center flex-col h-full gap-8">
-        <h1 className="text-6xl pt-16 font-normal  font-krylon text-center md:text-8xl lg:text-9xl xl:text-140 xl:font-bold ">
+    <div className="hero-bg text-white px-4 md:px-0 pb-4 xl:px-0 ">
+      <div className="flex items-center justify-center flex-col h-full gap-8 lg:pt-12 lg:pb-8">
+        <h1 className="text-6xl xl:pt-16 font-normal  font-krylon text-center md:text-8xl lg:text-9xl xl:text-180   ">
           ELEGANT VIBES
         </h1>
-        <div className="md:flex md:items-center md:border-t md:border-b md:border-white  w-full">
-          <p className="text-sm font-normal  font-poppins text-center w-full md:text-sm md:max-w-293 xl:text-base xl:p-8  xl:text-left xl:border-r xl:border-white ">
+        <div className="md:flex md:items-center md:border-t md:border-b md:border-white  w-full xl:items-center xl:flex xl:justify-center">
+          <p className="text-sm font-normal  font-poppins text-center w-full md:text-sm md:max-w-293 xl:max-w-393 xl:text-base xl:p-8  xl:text-left xl:border-r xl:border-white ">
             Built Wicket longer admire do barton vanity itself do in it.
             Preferred to sportsmen it engrossed listening. Park gate sell they
             west hard for the.
