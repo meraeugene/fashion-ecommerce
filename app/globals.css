@@ -1,27 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@font-face {
+  font-family: Krylon;
+  src: url(../public/fonts/Krylon-Regular.otf);
+}
+
+.hero-bg {
+  background: linear-gradient(
+      360deg,
+      rgba(1, 5, 14, 0.12) 0%,
+      rgba(1, 5, 14, 0.6) 100%
+    ),
+    url(/images/hero/bg.png);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .hero-bg {
+    background-position: 25% 45%;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@media (min-width: 1024px) {
+  .hero-bg {
+    background-position: 25% 43%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-bg {
+    background-position: 25% 32%;
+  }
 }
