@@ -108,7 +108,7 @@ const Header = () => {
             </div>
           </nav>
           {toggle && (
-            <nav className="bg-white fixed h-full  z-10 left-0 top-0 w-full grid place-items-center px-6 lg:hidden ">
+            <nav className="bg-white fixed h-full  z-10 left-0 top-0 w-full  px-4 lg:hidden  grid place-items-center  ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -124,11 +124,11 @@ const Header = () => {
                   d="M6 18L18 6M6 6l12 12"
                 />
               </svg>
-              <span className="font-aguafina text-4xl absolute bottom-8 left-6 ">
+              <span className="font-aguafina text-3xl absolute top-3 right-2 ">
                 ElgeVibes
               </span>
 
-              <ul className=" text-4xl  w-screen flex gap-6 flex-col justify-center font-krylon  ">
+              <ul className=" text-5xl font-semibold w-full grid gap-4  font-krylon  ">
                 <li>MEN</li>
                 <li>WOMEN</li>
                 <li>WHAT&apos;S NEW</li>
