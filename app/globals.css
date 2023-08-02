@@ -19,7 +19,7 @@
   background: linear-gradient(
       360deg,
       rgba(1, 5, 14, 0.12) 0%,
-      rgba(1, 5, 14, 0.6) 100%
+      rgba(1, 5, 14, 0.8) 100%
     ),
     url(/images/hero/bg.webp);
   width: 100%;
@@ -28,26 +28,24 @@
   height: 100vh;
 }
 
-.transparent {
-  -webkit-backdrop-filter: blur(40.7742px);
-  backdrop-filter: blur(40.7742px);
-  background: hsla(0, 0%, 100%, 0.01);
+body.menu-open {
+  overflow: hidden;
 }
 
 @media (min-width: 768px) {
   .hero-bg {
-    background-position: 25% 45%;
+    background-position: 25% 30%;
   }
 }
 
 @media (min-width: 1024px) {
   .hero-bg {
-    background-position: 25% 43%;
+    background-position: 25% 25%;
   }
 }
 
 @media (min-width: 1280px) {
   .hero-bg {
-    background-position: 25% 32%;
+    background-position: 25% 30%;
   }
 }

@@ -2,9 +2,9 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="hero-bg text-white px-4 md:px-0 ">
+    <div className="hero-bg text-white px-4 md:px-0 pb-4 xl:px-0">
       <div className="flex items-center justify-center flex-col h-full gap-8">
-        <h1 className="text-6xl  font-normal  font-krylon text-center md:text-8xl lg:text-9xl xl:text-140 xl:font-bold ">
+        <h1 className="text-6xl pt-16 font-normal  font-krylon text-center md:text-8xl lg:text-9xl xl:text-140 xl:font-bold ">
           ELEGANT VIBES
         </h1>
         <div className="md:flex md:items-center md:border-t md:border-b md:border-white  w-full">
@@ -20,7 +20,7 @@ const Hero = () => {
 
         <button
           type="button"
-          className="text-xl font-normal font-poppins border border-white w-24 h-24  rounded-full xl:text-2xl xl:h-28 xl:w-28"
+          className="text-lg font-normal font-poppins border border-white w-24 h-12 xl:h-20   rounded-full xl:text-2xl xl:w-36 "
         >
           SEE ALL
         </button>
