@@ -28,6 +28,12 @@
   height: 100vh;
 }
 
+.transparent {
+  -webkit-backdrop-filter: blur(40.7742px);
+  backdrop-filter: blur(40.7742px);
+  background: hsla(0, 0%, 100%, 0.01);
+}
+
 @media (min-width: 768px) {
   .hero-bg {
     background-position: 25% 45%;
