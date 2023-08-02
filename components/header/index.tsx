@@ -8,7 +8,7 @@ const Header = () => {
     setToggle(!toggle);
   };
   return (
-    <header className="p-2 md:p-4">
+    <header className="py-3 px-2">
       <nav className=" flex items-center justify-between">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -88,14 +88,14 @@ const Header = () => {
         </div>
       </nav>
       {toggle && (
-        <nav className="fixed bg-white min-h-[100vh] left-0 top-[0] w-full grid place-items-center px-6 lg:hidden">
+        <nav className="fixed bg-white min-h-full left-0 top-[0] w-full grid place-items-center px-6 lg:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-6 h-6 absolute top-2 left-2 md:top-4 md:left-4 md:w-8 md:h-8"
+            className="w-6 h-6 absolute top-3 left-2 md:top-4 md:left-4 md:w-8 md:h-8"
             onClick={toggleMenu}
           >
             <path

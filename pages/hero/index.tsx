@@ -8,12 +8,12 @@ const Hero = () => {
           ELEGANT VIBES
         </h1>
         <div className="md:flex md:items-center md:border-t md:border-b md:border-white  w-full">
-          <p className="text-sm font-normal  font-poppins text-center w-full md:text-sm md:max-w-293 xl:text-base xl:p-8  xl:text-left xl:border-r xl:border-white">
+          <p className="text-sm font-normal  font-poppins text-center w-full md:text-sm md:max-w-293 xl:text-base xl:p-8  xl:text-left xl:border-r xl:border-white ">
             Built Wicket longer admire do barton vanity itself do in it.
             Preferred to sportsmen it engrossed listening. Park gate sell they
             west hard for the.
           </p>
-          <h2 className="font-krylon font-medium uppercase text-2xl text-center max-w-1100 w-full md:text-4xl md:text-left md:p-4  mt-4 md:mt-0 lg:text-6xl xl:text-7xl xl:max-w-850">
+          <h2 className="font-krylon font-medium uppercase text-2xl text-center max-w-1100 w-full md:text-4xl md:text-left md:p-4  mt-4 md:mt-0 lg:text-6xl xl:text-7xl xl:max-w-850 md:border-l md:border-white xl:border-none">
             Wear the best and fashion on your look
           </h2>
         </div>

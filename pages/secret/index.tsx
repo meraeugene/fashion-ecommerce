@@ -6,7 +6,7 @@ const Secret = () => {
       <h1 className="text-2xl font-krylon font-normal  uppercase md:text-7xl lg:text-8xl xl:text-140 xl:max-w-1100 xl:leading-140">
         The secret of great style is to feel good in whatever you wear
       </h1>
-      <p className="font-poppins text-2xl font-normal capitalize max-w-4xl mt-6 md:text-base md:max-w-420 lg:text-2xl lg:max-w-600">
+      <p className="font-poppins text-lg font-normal capitalize  max-w-4xl mt-6 md:text-base md:max-w-420 lg:text-2xl lg:max-w-600">
         These varied projects demonstrate some of the range that Fashion
         photography has to offer—from artful depictions of reality to the
         further bounds of dreams and fantasy.

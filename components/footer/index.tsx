@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="p-4 md:px-24 lg:px-8">
       <div className="xl:flex xl:justify-around">
         <div className="flex flex-col gap-4 lg:items-center xl:items-start xl:max-w-325">
-          <h1 className="font-bold text-5xl font-krylon">Andrew.</h1>
+          <h1 className="text-3xl font-aguafina">Elgevibes.</h1>
           <p className="text-gray text-lg">
             Book your trip in minute, get full Control for much longer.
           </p>

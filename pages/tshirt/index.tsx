@@ -47,9 +47,9 @@ const Tshirt = () => {
               <path
                 d="M22.7071 35.9155L37.3149 20.8903L22.7071 5.86519M37.3149 20.8903H3.92566H37.3149Z"
                 stroke="#DF6951"
-                stroke-width="3.25225"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="3.25225"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </div>

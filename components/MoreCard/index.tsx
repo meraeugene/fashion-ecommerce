@@ -24,9 +24,11 @@ const MoreCard = ({ img, alt, price, title, desc }: MoreCardProps) => {
           {price}
         </span>
         <h2 className="text-xl font-semibold lg:mt-4 lg:text-2xl">{title}</h2>
-        <div className="border border-gray-300  opacity-30 lg:my-6"></div>
-        <p className="text-sm font-normal opacity-60 lg:mb-4 xl:mb-6">{desc}</p>
-        <span className="text-base font-semibold  ">Explore More</span>
+        <div className="border border-gray-300 my-4  opacity-30 lg:my-6"></div>
+        <p className="text-sm font-normal opacity-60 lg:mb-4 mb-2 xl:mb-6">
+          {desc}
+        </p>
+        <span className="text-base font-semibold ">Explore More</span>
       </div>
     </div>
   );

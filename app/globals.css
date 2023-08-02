@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: Krylon;
-  src: url(../public/fonts/Krylon-Regular.otf);
+  src: url(/fonts/Krylon-Regular.otf);
 }
 
 .hero-bg {
