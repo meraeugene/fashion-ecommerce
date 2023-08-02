@@ -36,7 +36,7 @@ const Header = () => {
           <ul className="lg:flex items-center gap-6  hidden">
             <li>MEN</li>
             <li>WOMEN</li>
-            <li>WHAT'S NEW</li>
+            <li>WHAT&apos;S NEW</li>
             <li>PROMO</li>
             <li>ABOUT</li>
           </ul>
@@ -111,7 +111,7 @@ const Header = () => {
           <ul className=" text-4xl  w-screen flex gap-6 flex-col justify-center font-krylon  ">
             <li>MEN</li>
             <li>WOMEN</li>
-            <li>WHAT'S NEW</li>
+            <li>WHAT&apos;S NEW</li>
             <li>PROMO</li>
             <li>ABOUT</li>
           </ul>
