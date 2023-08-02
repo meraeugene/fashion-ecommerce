@@ -16,7 +16,7 @@ const Collection = () => {
             $490.0
           </span>
           <Image
-            src="/images/collection/farol-portrait.png"
+            src="/images/collection/farol-portrait.webp"
             alt="farol pic"
             width={2182}
             height={2904}
@@ -31,7 +31,7 @@ const Collection = () => {
             living environment.
           </p>
           <Image
-            src="/images/collection/farol-landscape.png"
+            src="/images/collection/farol-landscape.webp"
             className="  object-cover  w-full xl:w-821 sm:w-full xl:h-616 lg:h-full md:h-full "
             width={2320}
             height={3088}

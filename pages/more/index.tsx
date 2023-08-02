@@ -15,7 +15,7 @@ const More = () => {
       </div>
       <div className="flex flex-wrap gap-12 md:flex-nowrap md:gap-6  ">
         <MoreCard
-          img="/images/more/orange.png"
+          img="/images/more/orange.webp"
           alt="orange dress"
           price="$490.0"
           title="Orange Summer Suit Button-Down + Tank + Jeans"
@@ -23,7 +23,7 @@ const More = () => {
 Profile. Then go to the general tab to change your email."
         />
         <MoreCard
-          img="/images/more/white.png"
+          img="/images/more/white.webp"
           alt="orange dress"
           price="$490.0"
           title="Orange Summer Suit Button-Down + Tank + Jeans"

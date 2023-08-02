@@ -9,7 +9,7 @@ const Tshirt = () => {
       </h1>
       <div className="flex gap-4 flex-wrap md:px-8 lg:flex-nowrap xl:px-16 xl:mt-12 xl:gap-16">
         <Image
-          src="/images/tshirt/renaisha.png"
+          src="/images/tshirt/renaisha.webp"
           alt="renaisha pic"
           width={4096}
           height={2731}

@@ -21,7 +21,7 @@
       rgba(1, 5, 14, 0.12) 0%,
       rgba(1, 5, 14, 0.6) 100%
     ),
-    url(/images/hero/bg.png);
+    url(/images/hero/bg.webp);
   width: 100%;
   background-position: center;
   background-size: cover;

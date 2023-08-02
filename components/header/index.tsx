@@ -88,7 +88,7 @@ const Header = () => {
         </div>
       </nav>
       {toggle && (
-        <nav className="fixed bg-white min-h-full left-0 top-[0] w-full grid place-items-center px-6 lg:hidden">
+        <nav className="fixed bg-white min-h-full z-10 left-0 top-[0] w-full grid place-items-center px-6 lg:hidden ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
