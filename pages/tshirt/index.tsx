@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Tshirt = () => {
   return (
@@ -7,9 +8,11 @@ const Tshirt = () => {
         Tshirt and tops
       </h1>
       <div className="flex gap-4 flex-wrap md:px-8 lg:flex-nowrap xl:px-16 xl:mt-12 xl:gap-16">
-        <img
+        <Image
           src="/images/tshirt/renaisha.png"
           alt="renaisha pic"
+          width={4096}
+          height={2731}
           className="max-w-709 w-full h-751 object-cover md:max-w-325 md:h-auto lg:max-w-600 lg:h-auto xl:max-w-709 "
         />
         <div className="flex flex-col px-4">
