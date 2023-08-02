@@ -30,7 +30,7 @@ const Tshirt = () => {
           </div>
           <p className="max-w-330 capitalize text-lg font-normal">
             This dark, mysterious visual story has no narrator — is it a
-            cinematic sequence of a child's memories, a dream, a diary, a
+            cinematic sequence of a child&apos;s memories, a dream, a diary, a
             nightmare? Your other selves are out there somewhere—alternative
             versions of you from moments that could have been or will be in the
             future. But what if all of these selves came together at the same
