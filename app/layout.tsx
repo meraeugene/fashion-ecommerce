@@ -14,7 +14,8 @@ export const metadata: Metadata = {
     icon: "images/icon.png",
   },
   openGraph: {
-    images: "",
+    images:
+      "https://raw.githubusercontent.com/meraeugene/fashion-ecommerce/main/public/images/preview.png",
   },
 };
 
