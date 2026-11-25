@@ -1,9 +1,13 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import dynamic from "next/dynamic";
 
 // animated icons
-import UseAnimations from "react-useanimations";
 import menu4 from "react-useanimations/lib/menu4";
+
+const UseAnimations = dynamic(() => import("react-useanimations"), {
+  ssr: false,
+});
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
